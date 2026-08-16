@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANGUARD STRATEGIC ADVISORY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: #f4f6f9;
+            color: #1a1a2e;
+            font-family: 'Rajdhani', sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+
+        main {
+            padding: 60px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* ===== SECTION LAYANAN ===== */
+        .services-section {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+        }
+
+        .services-section h2 {
+            font-family: 'Orbitron', monospace;
+            font-size: 24px;
+            letter-spacing: 2px;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+
+        .services-section ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .services-section ul li {
+            background: #f8f9fa;
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            border-left: 4px solid #a02020;
+            transition: 0.3s;
+        }
+
+        .services-section ul li:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        /* ===== SECTION PROGRESS ===== */
+        .progress-section {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .progress-section h2 {
+            font-family: 'Orbitron', monospace;
+            font-size: 24px;
+            letter-spacing: 2px;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 75%;
+            background: linear-gradient(90deg, #a02020, #ff4d6d);
+            border-radius: 10px;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            background: #1a1a2e;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span>
+            <img class="logo" src="Image/Logo.png" alt="Vanguard Logo" onerror="this.style.display='none'">
+            <h1 style="font-family: 'Orbitron', monospace; font-size: 20px; letter-spacing: 2px; color: #1a1a2e; margin-left: 10px;">VANGUARD</h1>
+        </span>
+    </header>
+
+    <main>
+        <!-- ===== SECTION LAYANAN ===== -->
+        <section class="services-section">
+            <h2>💎 Why Choose Us</h2>
+            <ul>
+                <li>Affordable pricing</li>
+                <li>Reliable customer support</li>
+            </ul>
+        </section>
+
+        <!-- ===== SECTION PROGRESS ===== -->
+        <section class="progress-section">
+            <h2>📈 Our Progress</h2>
+            <div class="progress-label">
+                <span>Project Completion</span>
+                <span>75%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <p style="color: #666; font-size: 14px; margin-top: 10px;">Menuju target 100% di akhir kuartal ini.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 VANGUARD STRATEGIC ADVISORY. All rights reserved.
+    </footer>
+
+</body>
+</html>
